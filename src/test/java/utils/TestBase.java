@@ -37,7 +37,7 @@ public class TestBase {
 		if(driver == null) {
 			
 			if(browser.equals("chrome")) {
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\Flor Norry\\Desktop\\upskillingTucuman\\ultimo\\driver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\Users\\maflo\\OneDrive\\Escritorio\\UpskillingTucuman\\driver\\chromedriver.exe");
 			    driver = new ChromeDriver();
 			    
 			    //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

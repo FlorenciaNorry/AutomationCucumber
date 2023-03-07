@@ -23,7 +23,7 @@ public class Hooks {
 	
 	@After
 	public void afterScenario() throws IOException {
-		//testContextSetup.testBase.webDriverManager().quit();
+		testContextSetup.testBase.webDriverManager().quit();
 	}
 	
 	@AfterStep
